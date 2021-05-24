@@ -1,1 +1,9 @@
 RANDOM BEERSS
+{{#each randomBeers as |randomBeer|}}
+<h1>{{randomBeer.name}}</h1>
+<img src="{{randomBeer.image_url}}" class="beers" alt="{{randomBeer.name}}">
+<p>{{randomBeer.tagline}}</p>
+<h3>Food Pairing:</h3>
+<p>{{randomBeer.food_pairing}}</p>
+<h3>Brewers Tips:</h3><p>{{randomBeer.food_pairing}}</p>
+{{/each}}
